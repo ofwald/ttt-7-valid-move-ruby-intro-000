@@ -4,7 +4,7 @@ def valid_move?(input, board)
     return false
   end
   x = input.to_i - 1
-  if !x.between?(0, 8)
+  if !x.between?(-1, 8)
     return false
   else
     return true
