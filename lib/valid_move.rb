@@ -15,8 +15,10 @@ end
 def position_taken?(board, index)
   if board[index] == " " or board[index] == ""
     return false
+  elsif board[index] == "X" or board[index] == "O"
+    return false
   end
 end
 
 board = Array.new(9, " ")
-puts valid_move?(0, board)
+puts valid_move?(10, board)
