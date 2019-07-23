@@ -17,5 +17,5 @@ def position_taken?(board, index)
     return false
   end
 end
-
+board = Array.new (9, " ")
 valid_move(1)
