@@ -26,3 +26,4 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 index = 0
+puts valid_move?(board, index)
