@@ -24,5 +24,5 @@ def position_taken?(board, index)
   end
 end
 
-board = [" ", " ", " ", "O", "X", " ", " ", " ", " "]
-index = 4
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+index = 0
