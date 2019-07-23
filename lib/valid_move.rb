@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-def valid_move(input, board)
+def valid_move?(input, board)
   if position_taken?(board, input)
     return false
   end
@@ -19,4 +19,4 @@ def position_taken?(board, index)
 end
 
 board = Array.new(9, " ")
-puts valid_move(1, board)
+puts valid_move?(1, board)
