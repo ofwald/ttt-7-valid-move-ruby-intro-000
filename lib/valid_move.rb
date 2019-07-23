@@ -3,6 +3,7 @@ def valid_move?(input, board)
   if position_taken?(board, input)
     return false
   end
+  puts input
   x = input.to_i - 1
   if !x.between?(-1, 8)
     return false
