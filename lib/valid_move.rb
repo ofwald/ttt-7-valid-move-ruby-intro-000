@@ -19,4 +19,4 @@ def position_taken?(board, index)
 end
 
 board = Array.new(9, " ")
-puts valid_move?(1, board)
+puts valid_move?(0, board)
