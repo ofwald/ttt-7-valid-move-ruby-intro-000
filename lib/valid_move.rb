@@ -1,6 +1,7 @@
 # code your #valid_move? method here
-def valid_move?(input, board)
-  x = input.to_i - 1
+def valid_move?(board, index)
+  index.to_i!
+  x = index - 1
   if !x.between?(-1, 8)
     return false
   else
