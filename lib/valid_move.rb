@@ -4,7 +4,7 @@ def valid_move(input, board)
     return false
   end
   x = input.to_i - 1
-  if !x.between?(-1, 8)
+  if !x.between?(1, 8)
     return false
   else
     return true
@@ -19,4 +19,4 @@ def position_taken?(board, index)
 end
 
 board = Array.new(9, " ")
-puts valid_move(16, board)
+puts valid_move(0, board)
