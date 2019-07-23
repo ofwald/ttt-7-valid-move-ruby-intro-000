@@ -18,4 +18,4 @@ def position_taken(board, index)
   end
 end
 
-pry binding
+valid_move(1)
