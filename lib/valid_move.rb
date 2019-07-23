@@ -20,3 +20,6 @@ def position_taken?(board, index)
     return false
   end
 end
+
+board = Array.new(9, " ")
+puts valid_move?(10, board)
