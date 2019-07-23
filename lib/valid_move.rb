@@ -21,4 +21,4 @@ end
 board = [" ", " ", " ", "O", "X", " ", " ", " ", " "]
 index = 4
 
-puts valid_move?(index, board)
+
