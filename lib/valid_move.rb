@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(input, board)
-  if position_taken?(board, input)
+  if !position_taken?(board, input)
     return false
   end
   x = input.to_i - 1
