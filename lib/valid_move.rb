@@ -21,6 +21,7 @@ def position_taken?(board, index)
   end
 end
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-index = 100
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+index = 4
+
 puts valid_move?(index, board)
