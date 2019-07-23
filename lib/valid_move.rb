@@ -6,7 +6,7 @@ def valid_move?(board, index)
     return false
   else
     if position_taken?(board, index)
-      return true
+      return false
     else
       false
     end
