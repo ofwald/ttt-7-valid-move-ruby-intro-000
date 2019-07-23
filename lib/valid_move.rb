@@ -15,10 +15,10 @@ end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 def position_taken?(board, index)
-  if board[index] == " " or board[index] == ""
+  if board[index] == " " || board[index] == ""
     return true
-  elsif board[index] == "X" or board[index] == "O"
-    return true
+  elsif board[index] == "X" || board[index] == "O"
+    return false
   else
     return false
   end
