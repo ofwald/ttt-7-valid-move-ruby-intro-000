@@ -2,6 +2,7 @@
 def valid_move(input)
   if position_taken?
     return false
+  end
   x = input.to_i - 1
   if !x.between?(-1, 8)
     return false
